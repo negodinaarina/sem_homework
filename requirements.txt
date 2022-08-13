@@ -1,14 +1,10 @@
 ﻿async-generator==1.10
 attrs==21.4.0
-beautifulsoup4==4.11.1
-bs4==0.0.1
 certifi==2020.6.20
 cffi==1.15.1
 chardet==3.0.4
 charset-normalizer==2.0.12
 click==7.1.2
-colorama==0.4.5
-colorgram.py==1.2.0
 cryptography==37.0.4
 dominate==2.5.2
 et-xmlfile==1.1.0
@@ -26,10 +22,8 @@ importlib-metadata==4.12.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-numpy==1.22.2
 openpyxl==3.0.9
 outcome==1.2.0
-pandas==1.4.0
 Pillow==9.0.1
 prettytable==3.0.0
 pycparser==2.21
@@ -38,7 +32,6 @@ PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2021.3
 requests==2.24.0
-selenium==4.3.0
 six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
