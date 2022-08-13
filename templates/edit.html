@@ -1,0 +1,24 @@
+{%  include 'head.html'%}
+<link href="{{url_for('static', filename='css/signin.css')}}" rel="stylesheet">
+
+<br>
+<main class="form-signin">
+    {% if edit==True %}
+    <h1 class="h3 mb-3 fw-normal">edit post</h1>
+    {% else %}
+    <h1 class="h3 mb-3 fw-normal">add new post</h1>
+    {% endif %}
+
+    <form method="post">
+        <div>{{ form.title.label }} <br> {{ form.title(class="css_class") }}</div>
+        <div>{{ form.subtitle.label }} <br> {{ form.subtitle() }}</div>
+        <div>{{form.cover_img_url.label}} <br> {{form.cover_img_url()}}</div>
+        <div>{{form.page_img_url.label}} <br> {{form.page_img_url()}}</div>
+        <div>{{form.description.label}} <br> {{form.description()}}</div>
+        <div>{{form.rating.label}} <br> {{form.rating()}}</div>
+        <div>{{form.time_reading.label}} <br> {{form.time_reading()}}</div>
+        <div>{{form.type.label}} <br> {{form.type()}}</div> <br>
+        <div>{{form.submit()}}</div>
+    </form>
+
+</main>
